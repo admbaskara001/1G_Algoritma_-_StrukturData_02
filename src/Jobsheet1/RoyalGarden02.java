@@ -1,3 +1,5 @@
+package Jobsheet1;
+
 public class RoyalGarden02 {
     static int[][] stockBunga = new int[4][4];
     static int[] hargaBunga = {75000, 50000, 60000, 10000}; // Aglonema, Keladi, Alocasia, Mawar
