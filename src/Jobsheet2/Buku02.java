@@ -42,4 +42,29 @@ public class Buku02 {
     void gantiHarga(int hrg) {
         harga = hrg;
     }
+
+    int hitunghargTotal(int jml) {
+        int hargaTotal = harga * jml;
+        return hargaTotal;
+    }
+
+    int hitungDiskon(int hrgTotal){
+        if (hrgTotal > 150000) {
+            hrgTotal *= 0.12;
+        } else if (hrgTotal >= 75000 && hrgTotal <= 150000){
+            hrgTotal *= 0.05;
+        } else if (hrgTotal < 75000) {
+            System.out.println("Tidak diskon");
+        }
+        return hrgTotal;
+        
+    }
+    int hitunghargaBayar(int hrgTotal, int hrgDiskon){
+        hrgTotal -= hrgDiskon;
+        return hrgTotal;
+    }
 }
+
+
+
+
