@@ -16,5 +16,8 @@ public class BukuMain02 {
         Buku02 bk2 = new Buku02("Self Reward", "Maheera Ayesha", 160, 29, 59000);
         bk2.terjual(11);
         bk2.tampilInformasi();
+
+        Buku02 bukubaru = new Buku02("Belajar Java", "Adham Baskara", 200, 10, 50000);
+        bukubaru.tampilInformasi();
     }
 }
