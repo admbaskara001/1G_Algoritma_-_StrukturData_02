@@ -1,3 +1,5 @@
+package Kuis1.Kuis1_AdhamB.src;
+
 class Album02 {
     private String judul;
     private String penyanyi;

@@ -1,3 +1,5 @@
+package Kuis1.Kuis1_AdhamB.src;
+
 import java.util.Scanner;
 
 public class Main {
